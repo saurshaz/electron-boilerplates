@@ -1,0 +1,27 @@
+{
+  "name": "main-app",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "react": "app_type=react electron .",
+    "vanilla": "app_type=vanilla electron ."
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "main-js": "0.0.1"
+  },
+  "devDependencies": {
+    "electron": "^4.0.7"
+  }
+}
